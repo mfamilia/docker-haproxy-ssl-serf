@@ -4,7 +4,6 @@
 
 # load environment variables
 exec 2>&1
-source /etc/envvars
 
 # start Serf agent
 exec /usr/local/bin/serf agent -config-dir=/etc/serf
